@@ -64,6 +64,17 @@ article img
     object-fit: cover;
 }
 
+.news > article:nth-child(even)
+{
+    background-color: gainsboro;
+}
+
+.news > article:nth-child(1) a h2::before , .news > article:nth-child(2) a h2::before
+{
+    content: "New ";
+    color: rebeccapurple;
+}
+
 footer
 {
     padding-top: 20px;
